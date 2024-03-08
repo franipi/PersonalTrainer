@@ -1,0 +1,406 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.navegador {
+    background-color: #eeece8;
+    min-height: 110px;
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    height: 80px;
+    margin-top: 20px;
+}
+
+.items {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+/* inicio */
+
+.inicioPersonal {
+    height: 450px;
+    background-image: url(../multimedia/gym-595597_640.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: 150px;
+    margin-bottom: 20px;
+}
+
+.inicioTitulo {
+    border: solid;
+    background-color: #eeece8;
+    padding: 5px;
+}
+
+.presentacion {
+    box-shadow: 0px 0px 8px 0px #000000;
+    margin: 30px;
+    padding: 30px;
+}
+
+.presentacion h2 {
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+
+.presentacion a {
+    padding-bottom: 15px;
+}
+
+.presentacionParrafo {
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+}
+
+a {
+    color: #000000;
+}
+
+.presentacionFoto {
+    height: auto;
+    width: 100%;
+}
+
+.testimonio {   
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.testimonioBox {
+    box-shadow: 0px 0px 8px 0px #00000073;
+    background-color: #eeece8;
+    text-align: center;
+    margin-block: 20px;
+} 
+
+
+
+
+
+/* servicios */
+
+.servicios {
+    text-align: center;
+}
+
+.bloques {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 350px);
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.bloqueImg {
+    height: 200px;
+    max-width: 100%;
+}
+
+.bloqueUno {
+    border: solid #eeece8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-inline: 8px;
+}
+
+.bloqueDos {
+    border: solid #eeece8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-inline: 8px;
+}
+
+.bloqueTres {
+    border: solid #eeece8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-inline: 8px;
+}
+
+.bloqueTitulo {
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.bloqueBoton {
+    color: #000000;
+}
+
+a:hover {
+    color: #c5a25c;
+}
+
+
+
+
+
+/* nosotros */
+
+
+
+
+
+
+
+
+/* blog  */
+
+.blog {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.blog h2 {
+    margin-top: 20px;
+}
+
+.blogIzquierda {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+}
+
+.blogDerecha {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+}
+
+.movilidad {
+    border: solid #eeece8;
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+
+}
+
+.cuerpoLibre {
+    border: solid #eeece8;
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+
+}
+
+.mancuernas {
+    border: solid #eeece8;
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+
+}
+
+.maquinas {
+    border: solid #eeece8;
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+
+
+}
+
+
+
+
+/* contacto */
+
+.contacto {
+    padding: 20px 0px 0px 40px;
+}
+
+.formulario {
+    padding: 20px 40px 0px 40px;
+}
+
+.formularioDerecha {
+    text-align: center;
+}
+
+.mapa {
+    padding: 40px ;
+}
+
+iframe {
+    width: 100%;
+}
+
+
+
+
+
+/* footer */
+
+footer {
+    background-color: #eeece8;
+    text-align: center;
+    font-weight: bold;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+footer a {
+    color: black;
+    font-size: 40px;
+    margin-inline: 10px;
+}
+
+@media only screen and (max-width:578px) {
+
+    /* inicio */
+
+    .container-fluid {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .logo {
+        height: 50px;
+        margin-top: 0px;
+    }
+
+    .items {
+        font-size: 20px;
+    }
+
+    /* blog */
+
+    .blog {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    /* contacto */
+
+    .formulario {
+        display: flex;
+        flex-direction: column;
+    }
+}   
+
+
+@media only screen and (min-width:760px) {
+    
+    /* inicio */
+
+
+
+    /* servicios */
+
+    .bloques {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(2,350px);
+        gap: 15px;
+    }
+
+    .bloqueUno {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .bloqueDos {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+    .bloqueTres {
+        grid-column: 1/3;
+        grid-row: 2/3;
+    }
+
+    /* contacto */
+
+    .formulario {
+        padding-inline: 100px;
+    }
+
+    .mapa {
+        padding-inline: 100px;
+    }
+    
+}
+
+@media only screen and (min-width:1000px) {
+    
+    /* servicios */
+
+    .bloques {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 350px;
+        gap: 15px;
+    }
+
+    .bloqueUno {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .bloqueDos {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+    .bloqueTres {
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+
+    /* contacto */
+    
+    .formulario {
+        padding-inline: 150px;
+    }
+
+    .mapa {
+        padding-inline: 150px;
+    }
+    
+}
