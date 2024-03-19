@@ -340,6 +340,10 @@ footer a {
         font-size: 20px;
     }
 
+    .sol {
+        padding-bottom: 20px;
+    }
+
     /* blog */
 
     .blog {
@@ -361,7 +365,7 @@ footer a {
     
     /* inicio */
 
-
+    
 
     /* servicios */
 
@@ -401,6 +405,12 @@ footer a {
 
 @media only screen and (min-width:1000px) {
     
+    // inicio
+
+    .testimonio {
+        padding-bottom: 25px;
+    }
+
     /* servicios */
 
     .bloques {
@@ -434,5 +444,6 @@ footer a {
     .mapa {
         padding-inline: 150px;
     }
-    
+
+
 }

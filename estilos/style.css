@@ -293,6 +293,9 @@ footer a {
   .items {
     font-size: 20px;
   }
+  .sol {
+    padding-bottom: 20px;
+  }
   /* blog */
   .blog {
     display: flex;
@@ -335,6 +338,9 @@ footer a {
   }
 }
 @media only screen and (min-width: 1000px) {
+  .testimonio {
+    padding-bottom: 25px;
+  }
   /* servicios */
   .bloques {
     display: grid;
