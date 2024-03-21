@@ -1,12 +1,17 @@
-Correcciones Entrega N2
--Hice los cambios en la ruta del menu que estaban mal hechas
--Corrijo los section de la pag Blog, Contacto y dejo solo uno
--Corrijo los encabezados, dejando solo un h1 y yendo de mayor a menor
+correcciones entrega n2
+-hice los cambios en la ruta del menu que estaban mal hechas
+-corrijo los section de la pag blog, contacto y dejo solo uno
+-corrijo los encabezados, dejando solo un h1 y yendo de mayor a menor
+-cambie los loren por texto personalizado
 
-Agregados
--Agrego favicon
--Cambie los loren por texto personalizado
--Agrego scss con variables de colores
--Hago cambios en el contenido
--Agrego meta description
--Agrego meta KW
+agregados
+-agrego favicon
+-agrego los alt en las imagenes
+-reduccion del peso de las fotos
+-agrego scss con variables de colores
+-hago cambios en el contenido
+-agrego meta description
+-agrego meta kw
+-agrego background color al main para dejarlo mas lindo
+-paso todo css a scss, eliminando lineas y dejando mas prolijo
+-arreglo los div de blog y dejo solo los necesarios
