@@ -58,6 +58,7 @@ header {
         border: solid;
         background-color: #ffffffe5;
         padding: 5px;
+        font-style: italic;
     }
 }
 
@@ -72,11 +73,13 @@ header {
         font-weight: bold;
         text-align: center;
         font-size: 35px;
+        font-style: italic;
     }
 
     a {
         padding-bottom: 15px;
         color: $color2;
+        font-weight: bold;
     }
 
     a:hover {
@@ -87,6 +90,7 @@ header {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        font-style: italic;
     }
 
     .presentacionFoto {
@@ -100,6 +104,7 @@ header {
     align-items: center;
     flex-direction: column;
     gap: 20px;
+    transition: transform 1s;
     
     .testimonioBox {
         box-shadow: 0px 0px 8px 0px #00000073;
@@ -107,6 +112,10 @@ header {
         text-align: center;
         margin-block: 20px;
     } 
+}
+
+.testimonio:hover {
+    transform: scale(1.1);
 }
 
 /* servicios */
@@ -122,6 +131,7 @@ header {
     grid-template-rows: repeat(3, 350px);
     gap: 20px;
     padding-bottom: 30px;
+    font-style: italic;
 
         .bloqueUno,
         .bloqueDos,
@@ -142,6 +152,7 @@ header {
             
             .bloqueBoton {
                 color: $color2;
+                font-weight: bold;
             }
 
             a:hover {
@@ -178,6 +189,15 @@ header {
     width: 100%;
     padding: 5px;
     border-radius: 20px;
+    transition: transform 1s;
+}
+
+.chico:hover {
+    transform: scale(1.05);
+}
+
+.chica:hover {
+    transform: scale(1.05);
 }
 
 /* blog  */
@@ -205,6 +225,7 @@ header {
     padding: 10px;
     align-items: center;
     background-color: $color4;
+    font-style: italic;
 
     .blogIzquierda,
     .blogDerecha {
@@ -226,10 +247,15 @@ header {
 .formulario {
     padding: 20px 20px 0px 20px;
 
-    .formularioIzquierda,
-    .formularioDerecha {
+    .formularioIzquierda {
         align-self: center;
         text-align: center;
+    }
+
+    .completar {
+        padding-block: 5px;
+        display: flex;
+        flex-direction: column;
     }
 }
 

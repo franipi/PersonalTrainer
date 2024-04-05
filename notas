@@ -4,7 +4,7 @@ correcciones entrega n2
 -corrijo los encabezados, dejando solo un h1 y yendo de mayor a menor
 -cambie los loren por texto personalizado
 
-agregados
+agregados para la entrega n3
 -agrego favicon
 -agrego los alt en las imagenes
 -reduccion del peso de las fotos
@@ -15,3 +15,10 @@ agregados
 -agrego background color al main para dejarlo mas lindo
 -paso todo css a scss, eliminando lineas y dejando mas prolijo
 -arreglo los div de blog y dejo solo los necesarios
+
+correcciones entrega n3
+-agrego la carpeta scss
+-corrijo el formulario de contacto
+-agrego animaciones
+-corrijo los 'alt' de las imagenes
+-agrego 'font-style' a algunos textos

@@ -46,6 +46,7 @@ header .navbar .items {
   border: solid;
   background-color: rgba(255, 255, 255, 0.8980392157);
   padding: 5px;
+  font-style: italic;
 }
 
 .presentacion {
@@ -59,10 +60,12 @@ header .navbar .items {
   font-weight: bold;
   text-align: center;
   font-size: 35px;
+  font-style: italic;
 }
 .presentacion a {
   padding-bottom: 15px;
   color: #000000;
+  font-weight: bold;
 }
 .presentacion a:hover {
   color: #c5a25c;
@@ -71,6 +74,7 @@ header .navbar .items {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  font-style: italic;
 }
 .presentacion .presentacionFoto {
   height: auto;
@@ -82,12 +86,17 @@ header .navbar .items {
   align-items: center;
   flex-direction: column;
   gap: 20px;
+  transition: transform 1s;
 }
 .testimonio .testimonioBox {
   box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.4509803922);
   background-color: #e6ddcc;
   text-align: center;
   margin-block: 20px;
+}
+
+.testimonio:hover {
+  transform: scale(1.1);
 }
 
 /* servicios */
@@ -102,6 +111,7 @@ header .navbar .items {
   grid-template-rows: repeat(3, 350px);
   gap: 20px;
   padding-bottom: 30px;
+  font-style: italic;
 }
 .bloques .bloqueUno,
 .bloques .bloqueDos,
@@ -125,6 +135,7 @@ header .navbar .items {
 .bloques .bloqueDos .bloqueBoton,
 .bloques .bloqueTres .bloqueBoton {
   color: #000000;
+  font-weight: bold;
 }
 .bloques .bloqueUno a:hover,
 .bloques .bloqueDos a:hover,
@@ -158,6 +169,15 @@ header .navbar .items {
   width: 100%;
   padding: 5px;
   border-radius: 20px;
+  transition: transform 1s;
+}
+
+.chico:hover {
+  transform: scale(1.05);
+}
+
+.chica:hover {
+  transform: scale(1.05);
 }
 
 /* blog  */
@@ -182,6 +202,7 @@ header .navbar .items {
   padding: 10px;
   align-items: center;
   background-color: #ffffff;
+  font-style: italic;
 }
 .movilidad .blogIzquierda,
 .movilidad .blogDerecha,
@@ -207,10 +228,14 @@ header .navbar .items {
 .formulario {
   padding: 20px 20px 0px 20px;
 }
-.formulario .formularioIzquierda,
-.formulario .formularioDerecha {
+.formulario .formularioIzquierda {
   align-self: center;
   text-align: center;
+}
+.formulario .completar {
+  padding-block: 5px;
+  display: flex;
+  flex-direction: column;
 }
 
 .mapa {
