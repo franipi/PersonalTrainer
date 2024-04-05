@@ -60,7 +60,6 @@ header .navbar .items {
   font-weight: bold;
   text-align: center;
   font-size: 35px;
-  font-style: italic;
 }
 .presentacion a {
   padding-bottom: 15px;
@@ -79,6 +78,34 @@ header .navbar .items {
 .presentacion .presentacionFoto {
   height: auto;
   width: 100%;
+}
+
+.barra {
+  background-image: url(../multimedia/dumbbell-1966247_640.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  text-align: center;
+  justify-content: center;
+  font-weight: bold;
+  margin: 45px 0px 30px;
+}
+.barra h3 {
+  font-size: 30px;
+}
+.barra p {
+  font-size: 25px;
+}
+.barra a {
+  color: #ffffff;
+  font-size: 20px;
+}
+.barra a:hover {
+  color: #c5a25c;
 }
 
 .testimonio {
